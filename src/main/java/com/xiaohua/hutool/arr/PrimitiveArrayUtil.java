@@ -6,4 +6,15 @@ package com.xiaohua.hutool.arr;
  */
 public class PrimitiveArrayUtil {
 
+    /**
+     * 数组是否为空
+     *
+     * @param array 数组
+     * @return 是否为空
+     */
+    public static boolean isEmpty(int[] array) {
+        return array == null || array.length == 0;
+    }
+
+
 }
